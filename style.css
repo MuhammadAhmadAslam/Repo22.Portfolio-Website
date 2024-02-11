@@ -94,6 +94,177 @@
     padding-right: 90px;
     padding-left: auto;
 }
+.projects-card{
+    border: 1px solid black;
+    width: 38%;
+    height: 450px;
+}
+.images{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 15s;
+}
+ a{
+    font-family: 'monsterlight';
+    text-decoration: none;
+    color: black;
+
+}
+.text h5{
+    font-family: 'monsterlight';
+    text-decoration: none;
+    color: black;
+    padding-top: 13px;
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text button{
+    background-color: red;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.images1{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+    animation-name: image1;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 15s;
+}
+.images2{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+    animation-name: image2;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 15s;
+}
+.images3{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+    animation-name: image3;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 15s;
+}
+.images4{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+    animation-name: image4;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 15s;
+}
+.images5{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+    animation-name: image5;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 15s;
+}
+@keyframes image1 {
+    0%{
+        background: url(images/baby\ care\ 1.png);
+        background-size: cover;
+    }
+    90%{
+        background: url(images/baby\ care\ 2.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/baby\ care\ 2.png);
+        background-size: cover;
+    }
+}
+@keyframes image2 {
+    0%{
+        background: url(images/bakerywebsites1.png);
+        background-size: cover;
+    }
+    90%{
+        background: url(images/bakerywebsites2.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/bakerywebsites1.png);
+        background-size: cover;
+    }
+}
+@keyframes image3 {
+    0%{
+        background: url(images/whatsapp\ 1.png);
+        background-size: cover;
+    }
+    90%{
+        background: url(images/whatsapp\ 2.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/whatsapp\ 3.png);
+        background-size: cover;
+    }
+}
+@keyframes image4 {
+    0%{
+        background: url(images/google\ class\ room.png);
+        background-size: cover;
+    }
+    90%{
+        background: url(images/google\ class\ room.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/google\ class\ room.png);
+        background-size: cover;
+    }
+}
+@keyframes image5 {
+    0%{
+        background: url(images/reg\ 1.png);
+        background-size: cover;
+    }
+    90%{
+        background: url(images/reg2.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/reg3.png);
+        background-size: cover;
+    }
+}
+@keyframes image {
+    0%{
+        background: url(images/spotfinder\ 1.png);
+        background-size: cover;
+    }
+    50%{
+        background: url(images/spotfinder\ 2.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/spot\ finder\ 3.png);
+        background-size: cover;
+    }
+}
 @media screen and (max-width: 992px) {
     #logo{
         margin-left: 30px;
@@ -136,6 +307,7 @@
         margin: 0;
         margin-top: 60px;
         margin-bottom: 0px;
+        width: 100%;
     }
 
 }
@@ -169,3 +341,24 @@
        padding-bottom: 50px;
     }
 }
+
+@media screen and (max-width: 576px){
+    #main1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    #main1-2{
+        border: 1px solid black;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    #main1-2 img{
+        margin-top: 0px;
+        padding-top: 40px;
+       
+    }
+}
+
+
