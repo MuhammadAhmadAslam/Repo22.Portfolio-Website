@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 
 }
 @font-face {
@@ -464,7 +465,7 @@
     margin-left: 80px;
     margin-top: 150px;
     padding-left: 0px;
-    width: 100%;
+    width: 70%;
     text-align: left;
     color: #F26C4F;
     /* border: 1px solid black; */
@@ -474,7 +475,7 @@
     margin-left: 80px;
     margin-top: 60px;
     padding-left: 0px;
-    width: 100%;
+    width: 70%;
     text-align: left;
     /* border: 1px solid black; */
     font-weight: bold;
@@ -499,14 +500,36 @@
     padding-right: 40px;
     font-family: 'monster';
     margin-top: 50px;
+    font-size: large;
 }
-#about-2{
-    width: 50%;
-    /* border: 1px solid red; */
+#footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-#about-2 img{
-    width: 70%;
-    margin-left: 70px;
+#footer h4{
+    color: white;
+    font-family: 'monster';
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: medium;
+}
+#footer-image{
+    width: 80px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer a:hover{
+    text-decoration: underline wheat;
+}
+.social-img2{
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 @media screen and (max-width: 992px) {
     #logo{
@@ -580,7 +603,7 @@
     #about-2{
         width: 100%;
         margin-top: 50px;
-        margin-left: 80px;
+        /* margin-left: 80px; */
         margin-bottom: 30px;
     }
     #main7{
@@ -589,6 +612,9 @@
     }
     #about{
         width: 100%;
+    }
+    #about-2 img{
+        margin-left: 40px;
     }
 
 }
@@ -670,6 +696,11 @@
     #maiin7{
         width: 100%;
     }
+    #about-2 img{
+        padding-left: 0px !important;
+        /* border: 1px solid black !important; */
+        margin-left: 0px !important;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -736,6 +767,10 @@
         margin-bottom: 30px;
         margin-top: 30px;
         margin-left: 20px;
+    }
+    #about-2 img{
+        margin-left:  60px !important;
+        width: 70% !important;
     }
 }
 
