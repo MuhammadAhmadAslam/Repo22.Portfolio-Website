@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 
 }
 @font-face {
@@ -503,9 +503,10 @@
     font-size: large;
 }
 #footer{
-    background-color: black;
+    background-color: #071822;
     padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+    margin-bottom: 0px;
 }
 #footer h4{
     color: white;
@@ -616,6 +617,15 @@
     #about-2 img{
         margin-left: 40px;
     }
+    .footer{
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        border: 1px solid white;
+        align-items: center;
+    }
+    #f1{
+        width: 60% !important;
+    }
 
 }
 @media screen and (max-width: 555px) {
@@ -648,6 +658,13 @@
     #main3 p{
         padding-left: 20px;
         margin-bottom: 30px;
+    }
+    .footer{
+        width: 100%;
+    }
+    #f1{
+        width: 80% !important;
+        border: 1px solid white !important;
     }
 }
 
@@ -770,8 +787,73 @@
     }
     #about-2 img{
         margin-left:  60px !important;
-        width: 70% !important;
+        width: 100% !important;
+        padding-right: 0px;
+
     }
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #071B22;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.footer-col{
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    width: 25%;
+    padding-right: 0px;
+    padding-top: 100px;
+}
+.footer-col{
+    width: 25%;
+    padding-right: 0px;
+}
+#f1{
+    width: 25%;
+}
+#f1 h1{
+    color: white;
+    font-family: 'satisfy';
+}
+#f1 h5{
+    color: whitesmoke;
+    font-family: 'monsterlight';
+}
+#name{
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 40px;
+    padding-left: 20px;
+}
+#email{
+        background-color: white;
+        border: none;
+        outline: none;
+        margin-bottom: 20px;
+        width: 250px;
+        height: 40px;
+    padding-left: 20px;
+}
+#input::placeholder{
+    color: black;
+    font-weight: 900;
+    font-family: 'monster';
+    margin-left: 30px;
+}
+#f1 button{
+    width: 170px;
+    height: 40px;
+    background-color: #F26C4F;
+    color: white;
+    border-radius: 20px;
+    font-size: large;
+}
 
