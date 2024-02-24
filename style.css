@@ -857,3 +857,9 @@
     font-size: large;
 }
 
+@media  screen and (min-width: 10px) and (max-width: 600px) {
+    #about-2 img{
+        margin-left: 0px !important;
+
+    }
+}
